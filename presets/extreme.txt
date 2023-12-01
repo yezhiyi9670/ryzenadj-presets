@@ -1,0 +1,1 @@
+ryzenadj --tctl-temp=75 --apu-skin-temp=45 --stapm-limit=45000 --slow-limit=48000 --fast-limit=65000
