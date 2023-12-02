@@ -38,7 +38,7 @@ def apply_preset(name):
         return -1
     return os.system(open(file_mode, 'r', encoding='utf-8').read().strip())
 
-if command != None and command != 'current' and not is_admin:
+if command != None and command != 'current' and not is_admin():
     print('This command can only be used by Administrators.')
     exit(5)
 
